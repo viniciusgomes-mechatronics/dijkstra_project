@@ -10,8 +10,7 @@
 Navegação autônoma com ROS usando o algoritmo de Dijkstra em ambiente de ensino em nuvem.
 
 ## Objetivo
-Fazer um robô encontrar o melhor caminho entre um ponto A e um ponto B, desviando de obstáculos. O foco são veículos (navegação em 2D). Drones (3D) aparecem como possível extensão.
-
+Fazer um robô encontrar o melhor caminho entre um ponto A e um ponto B, desviando de obstáculos. O foco são veículos (navegação em 2D). 
 ## Como funciona
 1. **Mapeamento (SLAM):** o mapa pode ser fornecido (arquivo de coordenadas).
 2. **Navegação:** os sensores leem o ambiente e o algoritmo de Dijkstra calcula o melhor caminho. O mapa é tratado como uma grade com obstáculos.
